@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Romero</title>
+</head>
+
+<body>
+    <h1>Calculo de Areas</h1>
+    <form action="Formulario.php" method="post">
+        <p>
+            <input type="radio" id="circulo" name="circulo" value="circulo">Circulo</input>
+        </p>
+        <p>
+            <input type="radio" id="cuadrado" name="cuadrado" value="cuadrado">Cuadrado</input>
+        </p>
+        <p>
+            <input type="radio" id="triangulo" name="triangulo" value="triangulo">Triangulo</input>
+        </p>
+        <fieldset>
+            <legend>Circulo</legend>
+            <p>
+                <label for="radio">Radio</label>
+                <input type="number" id="radio" name="radio" step="0.01" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Cuadrado</legend>
+            <p>
+                <label for="radio">Lado</label>
+                <input type="number" id="lado" name="lado" step="0.01" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Triangulo</legend>
+            <p>
+                <label for="radio">Base</label>
+                <input type="number" id="base" name="base" step="0.01" />
+            </p>
+            <p>
+                <label for="radio">Altura</label>
+                <input type="number" id="altura" name="altura" step="0.01" />
+
+            </p>
+        </fieldset>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
